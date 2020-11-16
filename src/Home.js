@@ -12,12 +12,14 @@ function Home() {
         />
         <div className="home__row">
           <Product
+            id={1}
             title={`OnePlus 7T Glacier Blue (8GB RAM+256GB Storage)by OnePlus`}
             image="https://images-eu.ssl-images-amazon.com/images/I/41CK68JShbL._AC_US160_FMwebp_QL70_.jpg"
             rating={3}
             price={19.99}
           />
           <Product
+            id={2}
             image="https://m.media-amazon.com/images/I/41VDS6f7C3L._SY346_.jpg"
             title={"AirBeamTV Screen Mirroring Receiver by  AirBeamTV BV"}
             rating={4}
@@ -26,18 +28,21 @@ function Home() {
         </div>
         <div className="home__row">
           <Product
+            id={3}
             title={"AirScreen - AirPlay & Google Cast & Miracast & DLNA"}
             image="https://images-eu.ssl-images-amazon.com/images/I/31gweotv3lL.jpg"
             rating={5}
             price={19.99}
           />
           <Product
+            id={4}
             image="https://images-eu.ssl-images-amazon.com/images/I/51JxoKpo8zL.png"
             title={"AirScreen - AirPlay & Google Cast & Miracast & DLNA"}
             rating={3}
             price={19.99}
           />
           <Product
+            id={5}
             image="https://images-na.ssl-images-amazon.com/images/I/61TT-JBwf-L._SL1500_.jpg"
             title={`
            ReeCure Anti Ageing Face Cream With Bio Active Protein For Women, 50g`}
@@ -47,6 +52,7 @@ function Home() {
         </div>
         <div className="home__row">
           <Product
+            id={6}
             image="https://m.media-amazon.com/images/I/41dF7XWTCfL._AC_SR160,160_.jpg"
             title={`Spawake Moisturising Fairness Day Cream, Face Cream with SPF 25/PA++, 50g`}
             rating={3}
