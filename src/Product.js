@@ -3,7 +3,8 @@ import "./Product.css";
 import GradeIcon from "@material-ui/icons/Grade";
 import { useStateValue } from "./StateProvider";
 function Product({ id, title, image, price, rating }) {
-  const [state, dispatch] = useStateValue();
+  const [{ basket }, dispatch] = useStateValue();
+  console.log("this is in the basket>>>>", basket);
   const addToBasket = () => {
     dispatch({
       type: "ADD_TO_BASKET",
