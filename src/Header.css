@@ -48,3 +48,13 @@
   margin-right: 10px;
   color: white;
 }
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 1px;
+}
+.header__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
